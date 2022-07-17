@@ -3,9 +3,9 @@ import Logo from '../images/airbnb-logo.png';
 
 const Navbar = () => {
   return (
-    <header>
-      <img src={Logo}></img>
-    </header>
+    <nav>
+      <img src={Logo} className="logo"></img>
+    </nav>
   )
 };
 
